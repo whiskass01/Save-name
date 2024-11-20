@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: brown;
+}
+
+button {
+    margin-left: 20px;
+background-color: antiquewhite;
+    color: chartreuse
+}
+button:hover{
+    color: blue;
+}
