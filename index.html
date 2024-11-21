@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LocalStorage</title>
+   <title>Сохранение имени</title> 
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
-    <input type="text" name="server" id="saveServer" placeholder="Введите имя">
-    <button onclick="setDate()">Сохранить имя</button>
+    <h1>Сохранение имени пользователя</h1>
+    <label for="username">Введите своё имя:</label>
+    <input type="text" id="username" placeholder="Ваше имя">
+    <button id="saveName">Сохранить имя</button>
+    <h2 id="displayName">Привет, </h2>
     <script src="js/script.js"></script>
 </body>
 </html>

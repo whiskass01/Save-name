@@ -3,6 +3,9 @@ body {
     margin: 20px;
     background-color: brown;
 }
+h2{
+    color: #050e6a;
+}
 
 button {
     margin-left: 20px;
